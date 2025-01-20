@@ -14,8 +14,6 @@ def main(page: ft.Page):
         else:
             resultado_texto.value = "Formulário enviado com sucesso!"
             resultado_texto.color = "green"
-        
-        # Atualizando a interface
         page.update()
 
     nome_input = ft.TextField(label="Nome", width=400)
